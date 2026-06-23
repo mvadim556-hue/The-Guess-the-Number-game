@@ -154,7 +154,7 @@ namespace GuessNumberWinForms
         {
             lblAttempts.Text = $"Попыток: {model.Attempts}";
             lblStatus.Text = model.IsGameOver ? 
-                $"🎉 Поздравляю! Вы угадали за {model.Attempts} попыток!" : 
+                $"Поздравляю! Вы угадали за {model.Attempts} попыток!" : 
                 "Введите число от 1 до 100";
             lblStatus.ForeColor = model.IsGameOver ? Color.Green : Color.Blue;
         }
